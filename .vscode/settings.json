@@ -1,0 +1,16 @@
+{
+  "files.exclude": {
+    ".dart_tool": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true,
+    ".git": true,
+    ".gitignore": true,
+    ".metadata": true,
+    "README.md": true,
+    "analysis_options.yaml": true,
+    "test": true,
+    ".vscode": true,
+    ".fvm": true
+  },
+  "dart.sdkPath": "/Users/DR-Tech/Development/flutter/bin/cache/dart-sdk"
+}

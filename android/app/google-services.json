@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "541048024492",
+    "firebase_url": "https://diamond-pos-dev-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "diamond-pos-dev",
+    "storage_bucket": "diamond-pos-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541048024492:android:2996dc433b936e0f93de09",
+        "android_client_info": {
+          "package_name": "com.IG.diamondapp.diamond_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541048024492-m2k15q3p49f3nnkoq7193j99vpsck5pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjQTQ1l2SzIFQku3c43cNyY1DlRKkJo8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541048024492-m2k15q3p49f3nnkoq7193j99vpsck5pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

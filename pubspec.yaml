@@ -1,0 +1,67 @@
+name: diamond_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.2.3
+  charts_flutter: ^0.12.0
+  cupertino_icons: ^1.0.5
+  dio: ^4.0.6
+  firebase_core: ^2.4.0
+  firebase_messaging: ^14.1.0
+  flutter_local_notifications: ^9.5.3+1
+  flutter_pretty_dio_logger: ^2.0.3
+  flutter_screenutil: ^5.6.0
+  flutter_svg: ^1.1.6
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  intl: ^0.17.0
+  percent_indicator: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  lints: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+    - assets/icons/navbar/
+    - assets/icons/state_view/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins.ttf
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter.ttf
+        - asset: assets/fonts/Inter/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+          weight: 700
+
+  uses-material-design: true
